@@ -20,7 +20,7 @@ function Contact({data}) {
 
      {/* <Reusdualinfo heading="Info"/> */}
 
-      {/* <ContactForm/> */}
+      <ContactForm/>
      <ReusInfo heading="About"/>
       </Layout>  
     </div>

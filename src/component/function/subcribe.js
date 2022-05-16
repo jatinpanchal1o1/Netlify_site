@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
  export function SubscribeForm() {
   const [state, handleSubmit] = useForm("xpzbkojd");
   if (state.succeeded) {
-      return<div className="col-4 offset-1"><p>Thanks for joining!</p></div>;
+      return<div className='container bg-success text-white text-center pt-2'><p>Thanks for joining!</p></div>;
   }
   return (
 
