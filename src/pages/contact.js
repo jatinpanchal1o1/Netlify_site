@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import SuperSection from '../component/reusable/superSection'
 import '../util/css/style.css'
 import ReusInfo from '../component/reusable/reusInfo';
+import { ContactForm } from '../component/function/form';
 // import Reusdualinfo from '../component/reusable/reusdualinfo';
 
 function Contact({data}) {
@@ -19,6 +20,7 @@ function Contact({data}) {
 
      {/* <Reusdualinfo heading="Info"/> */}
 
+      {/* <ContactForm/> */}
      <ReusInfo heading="About"/>
       </Layout>  
     </div>
