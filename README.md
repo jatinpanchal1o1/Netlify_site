@@ -1,7 +1,5 @@
 <p align="center">
-  <h1>Click here to see netify website</h1>
-  <a href="https://react-based.netlify.app/">
-    <h3>React App</h3>
+  <a href="https://react-based.netlify.app/"><h1>Click here to see netify website</h1>
   </a>
 </p>
 <p align="center">
