@@ -18,9 +18,9 @@ function About({data}) {
              superClass = "about-super"
             />
        <Reusdualinfo heading="Company Vision"/>
-
-       <ReusInfo heading="About Us"/>      
-      <Imgcard/>      
+        
+       <Imgcard/>
+       <ReusInfo heading="About Us"/>            
       </Layout>  
     </div>
   );
