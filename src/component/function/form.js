@@ -10,17 +10,6 @@ import { useForm, ValidationError } from '@formspree/react';
       return <p className='container col-6 mt-5 bg-success text-white text-center'>We will reply shortly.</p>;
   }
   return (
-         
-        <div>
-            
-            
-        <div className='container mt-5'>  
-            <div id="map-container-google-2" class="z-depth-1-half map-container">
-            <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-
-
         <div className="container col-8 mt-3">
             <form onSubmit={handleSubmit}>
             <div class="mb-3">
@@ -51,8 +40,6 @@ import { useForm, ValidationError } from '@formspree/react';
             </div>
             <button className="btn btn-primary" type="submit" disabled={state.submitting}>Subscribe</button>
             </form>
-        </div>
-
         </div>
   );
 }
